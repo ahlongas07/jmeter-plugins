@@ -35,7 +35,7 @@ public class UltimateThreadGroupGui
         implements TableModelListener,
         CellEditorListener {
 
-    public static final String WIKIPAGE = "UltimateThreadGroup";
+    public static final String WIKIPAGE = "LoomUltimateThreadGroup";
     private static final Logger log = LoggerFactory.getLogger(UltimateThreadGroupGui.class);
     protected ConcurrentHashMap<String, AbstractGraphRow> model;
     private GraphPanelChart chart;
@@ -101,7 +101,7 @@ public class UltimateThreadGroupGui
 
     @Override
     public String getStaticLabel() {
-        return JMeterPluginsUtils.prefixLabel("Ultimate Thread Group");
+        return JMeterPluginsUtils.prefixLabel("Loom Ultimate Thread Group");
     }
 
     @Override
